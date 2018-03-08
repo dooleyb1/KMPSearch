@@ -1,8 +1,7 @@
 # KMP Search
 
 Java implementation of a Knuth-Morris-Pratt string searching algorithm. 
-[Wikipedia](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
-Implemented using Sedgewick & Waynes version.
+[Wikipedia](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)  Implemented using Sedgewick & Waynes version.
 
 ## Usage
 
