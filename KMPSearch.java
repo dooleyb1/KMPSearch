@@ -144,6 +144,16 @@ public class KMPSearch {
       System.out.println("Pattern not found!\n\n");
   }
 
+  public static void readInput(){
+
+    StdOut.println("\nEnter the pattern you would like to search for:");
+    String needle = StdIn.readString();
+    StdOut.println("\nEnter the string you would like to search for this pattern in:");
+    String haystack = StdIn.readString();
+
+    searchXinY(needle, haystack);
+  }
+
   public static void main(String[] args) throws IOException {
 
     String input = args[0];
@@ -156,6 +166,9 @@ public class KMPSearch {
         break;
       case "-j":
         searchBuses();
+        break;
+      case "-s":
+        readInput();
         break;
       default:
         System.out.println("Incorrect input...");

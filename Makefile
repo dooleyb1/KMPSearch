@@ -11,6 +11,9 @@ BUILD = *:.
 default:
 	$(JC) $(JFLAGS) $(BUILD) *.java
 
+find:
+	@$(JVM) $(JFLAGS) $(RUN) KMPSearch -s
+
 example:
 	@$(JVM) $(JFLAGS) $(RUN) KMPSearch -r needle haystack
 
